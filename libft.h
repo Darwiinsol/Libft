@@ -6,7 +6,7 @@
 /*   By: apissier <apissier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/23 17:25:29 by apissier          #+#    #+#             */
-/*   Updated: 2016/12/15 13:43:08 by apissier         ###   ########.fr       */
+/*   Updated: 2017/01/31 15:55:33 by apissier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,6 +85,6 @@ void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 void				ft_swap(int *a, int *b);
 int					ft_isspace(int c);
 char				*ft_strrev(char *str);
-char				*ft_realloc(void *ptr, size_t cur_size, size_t new_size);
+void				*ft_realloc(void *ptr, size_t cur_size, size_t new_size);
 
 #endif
